@@ -52,7 +52,7 @@ BROWSER PATH/html/index.html
 ```
 replacing "PATH" with the path to the work directory, "BROWSER" with the command you use to open the browser you want to open documentation in.
 
-Here are examples for some browsers from my lovely Ubuntu (ВСТАВИТЬ СЕРДЕЧКО):
+Here are examples for some browsers from my lovely Ubuntu :cupid::
 
 Google Chrome
 ``` 
