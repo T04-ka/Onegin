@@ -1,9 +1,15 @@
 var files_dup =
 [
-    [ "cmprators.h", "cmprators_8h_source.html", null ],
-    [ "io.h", "io_8h_source.html", null ],
-    [ "qsort.h", "qsort_8h_source.html", null ],
-    [ "sqsort.h", "sqsort_8h_source.html", null ],
-    [ "strfuncs.h", "strfuncs_8h_source.html", null ],
-    [ "structs.h", "structs_8h_source.html", null ]
+    [ "cmprators.cpp", "cmprators_8cpp.html", "cmprators_8cpp" ],
+    [ "cmprators.h", "cmprators_8h.html", "cmprators_8h" ],
+    [ "io.cpp", "io_8cpp.html", "io_8cpp" ],
+    [ "io.h", "io_8h.html", "io_8h" ],
+    [ "main.cpp", "main_8cpp.html", "main_8cpp" ],
+    [ "qsort.cpp", "qsort_8cpp.html", "qsort_8cpp" ],
+    [ "qsort.h", "qsort_8h.html", "qsort_8h" ],
+    [ "sqsort.cpp", "sqsort_8cpp.html", "sqsort_8cpp" ],
+    [ "sqsort.h", "sqsort_8h.html", "sqsort_8h" ],
+    [ "strfuncs.cpp", "strfuncs_8cpp.html", "strfuncs_8cpp" ],
+    [ "strfuncs.h", "strfuncs_8h.html", "strfuncs_8h" ],
+    [ "structs.h", "structs_8h.html", "structs_8h" ]
 ];

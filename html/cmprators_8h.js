@@ -1,6 +1,6 @@
 var cmprators_8h =
 [
-    [ "ptrcmp", "cmprators_8h.html#a3cb44e4785b50cdd5379427d024e3c36", null ],
-    [ "scmpfrmstrendtostrstrt", "cmprators_8h.html#a6565f7a61d4501cf27f7ff2c972f84fd", null ],
-    [ "strcmpfrmstrstrttostrend", "cmprators_8h.html#a5c404e0801cde6e8973d4aed804e2129", null ]
+    [ "ptrcmp", "cmprators_8h.html#ace9a9342ae5f29e2f2bec24910f373df", null ],
+    [ "scmpfrmstrendtostrstrt", "cmprators_8h.html#a2fc0470003b15936b64a9addb5abce61", null ],
+    [ "strcmpfrmstrstrttostrend", "cmprators_8h.html#a5f7a6fdd9e77006284ff237ce3faeb03", null ]
 ];

@@ -48,6 +48,8 @@ void printArr(string arr[], int nlines, FILE* out);
 ///
 /// @param[in] fldt The filedata struct to read into.
 ///
+/// @return 0 on success, non-zero on failure.
+///
 //-------------------------------------------------------------------------------------
 int rdfrmfl(struct filedata* filedata);
 

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: structs.h Source File</title>
+<title>Onegin: structs.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">Onegin
    </div>
+   <div id="projectbrief">Sorting textfiles in direct and reverse order</div>
   </td>
  </tr>
  </tbody>
@@ -91,40 +92,62 @@ $(function(){initNavTree('structs_8h_source.html','',''); });
   <div class="headertitle"><div class="title">structs.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef STRUCTS_H</span></div>
+<a href="structs_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef STRUCTS_H</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define STRUCTS_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="foldopen" id="foldopen00007" data-start="{" data-end="};">
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="structstring.html">    7</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structstring.html">string</a> {</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* str;</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    <span class="keywordtype">size_t</span> len;</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>};</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">//-------------------------------------------------------------------------------------</span></div>
+<div class="foldopen" id="foldopen00008" data-start="{" data-end="};">
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="structstring.html">    8</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structstring.html">string</a> {</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="structstring.html#ab5585188dc3bad40861d2fdbc908493b">    9</a></span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_variable" href="structstring.html#ab5585188dc3bad40861d2fdbc908493b">str</a>;</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="structstring.html#aa6bcf0353fd5cf2f374a9b1dd0e4a73a">   10</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="structstring.html#aa6bcf0353fd5cf2f374a9b1dd0e4a73a">len</a>;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>};</div>
 </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="foldopen" id="foldopen00013" data-start="{" data-end="};">
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="structfiledata.html">   13</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structfiledata.html">filedata</a> {</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* flnm;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keywordtype">size_t</span> sz;</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keywordtype">int</span> nlns;</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keywordtype">char</span> *rdbffr;</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keywordtype">string</span> *prsdbffr;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>};</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">//-------------------------------------------------------------------------------------</span></div>
+<div class="foldopen" id="foldopen00015" data-start="{" data-end="};">
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="structfiledata.html">   15</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structfiledata.html">filedata</a> {</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structfiledata.html#a7eaec86f9ec5d6ccb3aa35fd11fa7cc2">   16</a></span>    FILE* <a class="code hl_variable" href="structfiledata.html#a7eaec86f9ec5d6ccb3aa35fd11fa7cc2">fl</a>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="structfiledata.html#a7aa9690298dcfab00aeea9c49be4ed3d">   17</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="structfiledata.html#a7aa9690298dcfab00aeea9c49be4ed3d">sz</a>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="structfiledata.html#a56c13963d857804e25ad3782b74ab5da">   18</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structfiledata.html#a56c13963d857804e25ad3782b74ab5da">nlns</a>;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="structfiledata.html#a25b8ddcaee5b05d8f783c23f2ba04e7a">   19</a></span>    <span class="keywordtype">char</span> *<a class="code hl_variable" href="structfiledata.html#a25b8ddcaee5b05d8f783c23f2ba04e7a">rdbffr</a>;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="structfiledata.html#a29282a0fc422490030d1116aa944722d">   20</a></span>    <span class="keywordtype">string</span> *<a class="code hl_variable" href="structfiledata.html#a29282a0fc422490030d1116aa944722d">prsdbffr</a>;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>};</div>
 </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="astructfiledata_html"><div class="ttname"><a href="structfiledata.html">filedata</a></div><div class="ttdef"><b>Definition</b> structs.h:13</div></div>
-<div class="ttc" id="astructstring_html"><div class="ttname"><a href="structstring.html">string</a></div><div class="ttdef"><b>Definition</b> structs.h:7</div></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="comment">//-------------------------------------------------------------------------------------</span></div>
+<div class="foldopen" id="foldopen00025" data-start="{" data-end="};">
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="structio__data.html">   25</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structio__data.html">io_data</a> {</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="structio__data.html#a2e033e19226d89ab5d0e417ee8c8e50e">   26</a></span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_variable" href="structio__data.html#a2e033e19226d89ab5d0e417ee8c8e50e">inp</a>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="structio__data.html#ae9b982c84a678fe995f6abd5d0262e8f">   27</a></span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_variable" href="structio__data.html#ae9b982c84a678fe995f6abd5d0262e8f">out</a>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>};</div>
+</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="astructfiledata_html"><div class="ttname"><a href="structfiledata.html">filedata</a></div><div class="ttdef"><b>Definition</b> structs.h:15</div></div>
+<div class="ttc" id="astructfiledata_html_a25b8ddcaee5b05d8f783c23f2ba04e7a"><div class="ttname"><a href="structfiledata.html#a25b8ddcaee5b05d8f783c23f2ba04e7a">filedata::rdbffr</a></div><div class="ttdeci">char * rdbffr</div><div class="ttdef"><b>Definition</b> structs.h:19</div></div>
+<div class="ttc" id="astructfiledata_html_a29282a0fc422490030d1116aa944722d"><div class="ttname"><a href="structfiledata.html#a29282a0fc422490030d1116aa944722d">filedata::prsdbffr</a></div><div class="ttdeci">string * prsdbffr</div><div class="ttdef"><b>Definition</b> structs.h:20</div></div>
+<div class="ttc" id="astructfiledata_html_a56c13963d857804e25ad3782b74ab5da"><div class="ttname"><a href="structfiledata.html#a56c13963d857804e25ad3782b74ab5da">filedata::nlns</a></div><div class="ttdeci">int nlns</div><div class="ttdef"><b>Definition</b> structs.h:18</div></div>
+<div class="ttc" id="astructfiledata_html_a7aa9690298dcfab00aeea9c49be4ed3d"><div class="ttname"><a href="structfiledata.html#a7aa9690298dcfab00aeea9c49be4ed3d">filedata::sz</a></div><div class="ttdeci">size_t sz</div><div class="ttdef"><b>Definition</b> structs.h:17</div></div>
+<div class="ttc" id="astructfiledata_html_a7eaec86f9ec5d6ccb3aa35fd11fa7cc2"><div class="ttname"><a href="structfiledata.html#a7eaec86f9ec5d6ccb3aa35fd11fa7cc2">filedata::fl</a></div><div class="ttdeci">FILE * fl</div><div class="ttdef"><b>Definition</b> structs.h:16</div></div>
+<div class="ttc" id="astructio__data_html"><div class="ttname"><a href="structio__data.html">io_data</a></div><div class="ttdef"><b>Definition</b> structs.h:25</div></div>
+<div class="ttc" id="astructio__data_html_a2e033e19226d89ab5d0e417ee8c8e50e"><div class="ttname"><a href="structio__data.html#a2e033e19226d89ab5d0e417ee8c8e50e">io_data::inp</a></div><div class="ttdeci">const char * inp</div><div class="ttdef"><b>Definition</b> structs.h:26</div></div>
+<div class="ttc" id="astructio__data_html_ae9b982c84a678fe995f6abd5d0262e8f"><div class="ttname"><a href="structio__data.html#ae9b982c84a678fe995f6abd5d0262e8f">io_data::out</a></div><div class="ttdeci">const char * out</div><div class="ttdef"><b>Definition</b> structs.h:27</div></div>
+<div class="ttc" id="astructstring_html"><div class="ttname"><a href="structstring.html">string</a></div><div class="ttdef"><b>Definition</b> structs.h:8</div></div>
+<div class="ttc" id="astructstring_html_aa6bcf0353fd5cf2f374a9b1dd0e4a73a"><div class="ttname"><a href="structstring.html#aa6bcf0353fd5cf2f374a9b1dd0e4a73a">string::len</a></div><div class="ttdeci">size_t len</div><div class="ttdef"><b>Definition</b> structs.h:10</div></div>
+<div class="ttc" id="astructstring_html_ab5585188dc3bad40861d2fdbc908493b"><div class="ttname"><a href="structstring.html#ab5585188dc3bad40861d2fdbc908493b">string::str</a></div><div class="ttdeci">const char * str</div><div class="ttdef"><b>Definition</b> structs.h:9</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>structs.h</b></li>
+    <li class="navelem"><a href="structs_8h.html">structs.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

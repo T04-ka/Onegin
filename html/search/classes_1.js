@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['string_0',['string',['../structstring.html',1,'']]]
+  ['io_5fdata_0',['io_data',['../structio__data.html',1,'']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['main_0',['main',['../main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;main.cpp'],['../qsortdbg_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;qsortdbg.cpp'],['../sqsortdbg_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;sqsortdbg.cpp']]],
-  ['main_2ecpp_1',['main.cpp',['../main_8cpp.html',1,'']]]
+  ['opnfls_0',['opnfls',['../io_8cpp.html#a4d3ad0c854ebd0c74ba6b626b688147a',1,'opnfls(FILE **inp, FILE **out, struct io_data io_data):&#160;io.cpp'],['../io_8h.html#a4d3ad0c854ebd0c74ba6b626b688147a',1,'opnfls(FILE **inp, FILE **out, struct io_data io_data):&#160;io.cpp']]],
+  ['out_1',['out',['../structio__data.html#ae9b982c84a678fe995f6abd5d0262e8f',1,'io_data']]]
 ];

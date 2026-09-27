@@ -1,0 +1,97 @@
+.TH "io.h" 3 "Onegin" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+io.h
+.SH SYNOPSIS
+.br
+.PP
+\fR#include 'structs\&.h'\fP
+.br
+\fR#include <stdlib\&.h>\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBopnfls\fP (FILE **inp, FILE **out, struct \fBio_data\fP \fBio_data\fP)"
+.br
+.ti -1c
+.RI "int \fBclsfls\fP (FILE *inp, FILE *out)"
+.br
+.ti -1c
+.RI "void \fBprintArr\fP (\fBstring\fP arr[], int nlines, FILE *out)"
+.br
+.ti -1c
+.RI "int \fBrdfrmfl\fP (struct \fBfiledata\fP *\fBfiledata\fP)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "int clsfls (FILE * inp, FILE * out)"
+Closes the input and output files\&.
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIinp\fP The input file to close\&. 
+.br
+\fIout\fP The output file to close\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+0 on success, non-zero on failure\&. 
+.RE
+.PP
+
+.SS "int opnfls (FILE ** inp, FILE ** out, struct \fBio_data\fP io_data)"
+Opens the input and output files for reading and writing, respectively\&.
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIinp\fP The input file to open\&. 
+.br
+\fIout\fP The output file to open\&. 
+.br
+\fI\fBio_data\fP\fP The \fBio_data\fP struct containing the file names\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+0 on success, non-zero on failure\&. 
+.RE
+.PP
+
+.SS "void printArr (\fBstring\fP arr[], int nlines, FILE * out)"
+Prints the contents of an array of strings to the console\&.
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIarr\fP The array of strings to print\&. 
+.br
+\fInlines\fP The number of lines in the array\&. 
+.RE
+.PP
+
+.SS "int rdfrmfl (struct \fBfiledata\fP * filedata)"
+Reads the contents of a file into a filedata struct\&.
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIfldt\fP The filedata struct to read into\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+0 on success, non-zero on failure\&. 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Onegin from the source code\&.

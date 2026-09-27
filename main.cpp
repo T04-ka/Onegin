@@ -1,20 +1,14 @@
 #include "io.h"
 #include "strfuncs.h"
-#include "structs.h"
 #include "qsort.h"
 #include "cmprators.h"
 
 #include <cstdlib>
-#include <stdlib.h>
 
-// TODO сделать argc argv c именами файлов DONE
-// carambaswitcher!!
-// TODO: сделать вывод в файл DONE
-// TODO: сделать отдельную функцию для free всего с уничтоженем всех данных DONE
 
-#define CHCKERR(A)  if (err) {                                      \
+#define CHCKERR(ERR)  if (err) {                                    \
                                                                     \
-                        fprintf(outfl, A);                          \
+                        fprintf(outfl, ERR);                        \
                         return 1;                                   \
                     }
 

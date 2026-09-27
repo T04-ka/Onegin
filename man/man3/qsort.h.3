@@ -1,0 +1,44 @@
+.TH "qsort.h" 3 "Onegin" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+qsort.h
+.SH SYNOPSIS
+.br
+.PP
+\fR#include <stdio\&.h>\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBmyqsort\fP (void *arr, size_t elemsize, size_t arrsize, int(*cmp)(const void *a, const void *b))"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "void myqsort (void * arr, size_t elemsize, size_t arrsize, int(* cmp )(const void *a, const void *b))"
+Sorting the void* array using quicksort algorithm
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIarr[]\fP Array with data 
+.br
+\fIelemsize\fP Size of one array element in bytes 
+.br
+\fIarrsize\fP Size of array in bytes 
+.br
+\fIcmp\fP Personal comparator
+.RE
+.PP
+\fBNote\fP
+.RS 4
+Comparator must return 0 if elements are equal, positive int if first elem > second elem, negative int if first elem < second elem\&. 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Onegin from the source code\&.

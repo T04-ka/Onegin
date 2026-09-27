@@ -1,18 +1,30 @@
 var indexSectionsWithContent =
 {
-  0: "fs",
-  1: "fs"
+  0: "cfilmnopqrs",
+  1: "fis",
+  2: "cimqrs",
+  3: "cfimoprs",
+  4: "filnoprs",
+  5: "cfp"
 };
 
 var indexSectionNames =
 {
   0: "all",
-  1: "classes"
+  1: "classes",
+  2: "files",
+  3: "functions",
+  4: "variables",
+  5: "defines"
 };
 
 var indexSectionLabels =
 {
   0: "All",
-  1: "Classes"
+  1: "Classes",
+  2: "Files",
+  3: "Functions",
+  4: "Variables",
+  5: "Macros"
 };
 

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Ded is loh: sqsort.h File Reference</title>
+<title>Onegin: sqsort.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Ded is loh
+   <div id="projectname">Onegin
    </div>
+   <div id="projectbrief">Sorting textfiles in direct and reverse order</div>
   </td>
  </tr>
  </tbody>
@@ -107,11 +108,9 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="sqsort_8h__dep__incl.png" border="0" usemap="#asqsort_8hdep" loading="lazy" alt=""/></div>
 <map name="asqsort_8hdep" id="asqsort_8hdep">
-<area shape="rect" title=" " alt="" coords="64,5,137,33"/>
-<area shape="rect" href="main_8cpp.html" title=" " alt="" coords="5,81,87,109"/>
-<area shape="poly" title=" " alt="" coords="84,45,58,82,54,79,79,47"/>
-<area shape="rect" href="sqsort_8cpp.html" title=" " alt="" coords="111,81,200,109"/>
-<area shape="poly" title=" " alt="" coords="121,43,148,81,143,80,118,48"/>
+<area shape="rect" title=" " alt="" coords="13,5,86,33"/>
+<area shape="rect" href="sqsort_8cpp.html" title=" " alt="" coords="5,81,94,109"/>
+<area shape="poly" title=" " alt="" coords="51,47,52,81,47,80,48,51"/>
 </map>
 </div>
 </div>
@@ -119,11 +118,11 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aab5e1827e7fa3110228d8b7f00eeeb09" id="r_aab5e1827e7fa3110228d8b7f00eeeb09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab5e1827e7fa3110228d8b7f00eeeb09">sqsort</a> (void *arr, size_t arrsize, size_t elemsize, int(*cmp)(void *, void *))</td></tr>
+<tr class="memitem:a4a2cde91c741f42159a28e77bc8483e6" id="r_a4a2cde91c741f42159a28e77bc8483e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a2cde91c741f42159a28e77bc8483e6">sqsort</a> (void *arr, size_t arrsize, size_t elemsize, int(*cmp)(const void *, const void *))</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="aab5e1827e7fa3110228d8b7f00eeeb09" name="aab5e1827e7fa3110228d8b7f00eeeb09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab5e1827e7fa3110228d8b7f00eeeb09">&#9670;&#160;</a></span>sqsort()</h2>
+<a id="a4a2cde91c741f42159a28e77bc8483e6" name="a4a2cde91c741f42159a28e77bc8483e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a2cde91c741f42159a28e77bc8483e6">&#9670;&#160;</a></span>sqsort()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -146,7 +145,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int(*</td>          <td class="paramname"><span class="paramname"><em>cmp&#160;</em></span>)(void *, void *)&#160;)</td>
+          <td class="paramtype">int(*</td>          <td class="paramname"><span class="paramname"><em>cmp&#160;</em></span>)(const void *, const void *)&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -163,48 +162,14 @@ Functions</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>The pointer to the array must be void*. </dd>
 <dd>
 Comparator must return 0 if elements are equal, positive int if first elem &gt; second elem, negative int if first elem &lt; second elem. </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="sqsort_8cpp_source.html#l00015">15</a> of file <a class="el" href="sqsort_8cpp_source.html">sqsort.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   15</span>                                                                                   {</div>
-<div class="line"><span class="lineno">   16</span> </div>
-<div class="line"><span class="lineno">   17</span>    <span class="keywordtype">size_t</span> len = arrsize/elemsize;</div>
-<div class="line"><span class="lineno">   18</span> </div>
-<div class="line"><span class="lineno">   19</span>    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; len; i++){</div>
-<div class="line"><span class="lineno">   20</span>        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> j = i; j &lt; len; j++){</div>
-<div class="line"><span class="lineno">   21</span> </div>
-<div class="line"><span class="lineno">   22</span>            <span class="keywordtype">void</span> *ivl = (<span class="keywordtype">void</span> *) ((<span class="keywordtype">char</span>*) arr + elemsize * i);</div>
-<div class="line"><span class="lineno">   23</span>            <span class="keywordtype">void</span> *jvl = (<span class="keywordtype">void</span> *) ((<span class="keywordtype">char</span>*) arr + elemsize * j);</div>
-<div class="line"><span class="lineno">   24</span> </div>
-<div class="line"><span class="lineno">   25</span>            <span class="keywordflow">if</span> (cmp(ivl, jvl) &gt; 0){</div>
-<div class="line"><span class="lineno">   26</span> </div>
-<div class="line"><span class="lineno">   27</span>                <a class="code hl_function" href="sqsort_8cpp.html#a81d69681a1e98d2f873c9cbea31170d6">swap</a>(ivl, jvl, elemsize);</div>
-<div class="line"><span class="lineno">   28</span>            }</div>
-<div class="line"><span class="lineno">   29</span>        }</div>
-<div class="line"><span class="lineno">   30</span>    }</div>
-<div class="line"><span class="lineno">   31</span>}</div>
-<div class="ttc" id="asqsort_8cpp_html_a81d69681a1e98d2f873c9cbea31170d6"><div class="ttname"><a href="sqsort_8cpp.html#a81d69681a1e98d2f873c9cbea31170d6">swap</a></div><div class="ttdeci">void swap(void *elm1ptr, void *elm2ptr, size_t size)</div><div class="ttdef"><b>Definition</b> <a href="sqsort_8cpp_source.html#l00035">sqsort.cpp:35</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="sqsort_8cpp_source.html#l00035">swap()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00011">main()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="sqsort_8h_aab5e1827e7fa3110228d8b7f00eeeb09_cgraph.png" border="0" usemap="#asqsort_8h_aab5e1827e7fa3110228d8b7f00eeeb09_cgraph" loading="lazy" alt=""/></div>
-<map name="asqsort_8h_aab5e1827e7fa3110228d8b7f00eeeb09_cgraph" id="asqsort_8h_aab5e1827e7fa3110228d8b7f00eeeb09_cgraph">
+<div class="center"><img src="sqsort_8h_a4a2cde91c741f42159a28e77bc8483e6_cgraph.png" border="0" usemap="#asqsort_8h_a4a2cde91c741f42159a28e77bc8483e6_cgraph" loading="lazy" alt=""/></div>
+<map name="asqsort_8h_a4a2cde91c741f42159a28e77bc8483e6_cgraph" id="asqsort_8h_a4a2cde91c741f42159a28e77bc8483e6_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,67,33"/>
 <area shape="rect" href="sqsort_8cpp.html#a81d69681a1e98d2f873c9cbea31170d6" title=" " alt="" coords="115,5,170,33"/>
 <area shape="poly" title=" " alt="" coords="67,17,102,19,97,20,67,22"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="sqsort_8h_aab5e1827e7fa3110228d8b7f00eeeb09_icgraph.png" border="0" usemap="#asqsort_8h_aab5e1827e7fa3110228d8b7f00eeeb09_icgraph" loading="lazy" alt=""/></div>
-<map name="asqsort_8h_aab5e1827e7fa3110228d8b7f00eeeb09_icgraph" id="asqsort_8h_aab5e1827e7fa3110228d8b7f00eeeb09_icgraph">
-<area shape="rect" title=" " alt="" coords="108,5,169,33"/>
-<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,33"/>
-<area shape="poly" title=" " alt="" coords="90,20,60,22,60,17,95,18"/>
 </map>
 </div>
 

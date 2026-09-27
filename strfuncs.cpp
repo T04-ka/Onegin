@@ -62,18 +62,18 @@ void prsdata(struct filedata* fldt){
 
 
 //-------------------------------------------------------------------------------------
-#define fldt_ fldt ->
+#define FLDT_ fldt ->
 
 void filedatastrdestr(struct filedata* fldt){
-
-    fldt_ fl = NULL;
-    fldt_ sz = -1;
-    fldt_ nlns = -1;
-    free(fldt_ rdbffr);
-    free(fldt_ prsdbffr);
+    //fltdt_ flnm = "DEF_LOH";
+    FLDT_ fl = NULL;
+    FLDT_ sz = -1;
+    FLDT_ nlns = -1;
+    free(FLDT_ rdbffr);
+    free(FLDT_ prsdbffr);
 }
 
-#undef fldt_
+#undef FLDT_
 
 
 //-------------------------------------------------------------------------------------
@@ -92,7 +92,7 @@ int ioflnmsprs(int argc, char** argv, struct io_data* ionm){
         return 0;
     }
 
-    return -1;
+    return 1;
 }
 
 

@@ -1,0 +1,64 @@
+.TH "sqsort.cpp" 3 "Onegin" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sqsort.cpp
+.SH SYNOPSIS
+.br
+.PP
+\fR#include 'sqsort\&.h'\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBswap\fP (void *elm1ptr, void *elm2ptr, size_t size)"
+.br
+.ti -1c
+.RI "void \fBsqsort\fP (void *arr, size_t arrsize, size_t elemsize, int(*cmp)(const void *, const void *))"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "void sqsort (void * arr, size_t arrsize, size_t elemsize, int(* cmp )(const void *, const void *))"
+Sorts an array using the square algorithm\&.
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIarr\fP The array to sort\&. 
+.br
+\fIarrsize\fP The size of the array\&. 
+.br
+\fIelemsize\fP The size of each element\&. 
+.br
+\fIcmp\fP The comparison function\&.
+.RE
+.PP
+\fBNote\fP
+.RS 4
+The pointer to the array must be void*\&. 
+
+.PP
+Comparator must return 0 if elements are equal, positive int if first elem > second elem, negative int if first elem < second elem\&. 
+.RE
+.PP
+
+.SS "void swap (void * elm1ptr, void * elm2ptr, size_t size)"
+Swaps two elements of the array\&.
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIelm1ptr\fP Void* pointer to the first element\&. 
+.br
+\fIelm2ptr\fP Void* pointer to the second element\&. 
+.br
+\fIsize\fP Size of the elements\&. 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Onegin from the source code\&.

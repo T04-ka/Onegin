@@ -1,6 +1,15 @@
 var searchData=
 [
-  ['rdbffr_0',['rdbffr',['../structfiledata.html#a25b8ddcaee5b05d8f783c23f2ba04e7a',1,'filedata']]],
-  ['rdfrmfl_1',['rdfrmfl',['../io_8cpp.html#a079e8ee0f350006df2e70fe5ebb6a172',1,'rdfrmfl(struct filedata *fldt):&#160;io.cpp'],['../io_8h.html#a055542543c32eb14a10a21edf688ebcd',1,'rdfrmfl(struct filedata *filedata):&#160;io.cpp']]],
-  ['red_2',['RED',['../qsortdbg_8cpp.html#a8d23feea868a983c8c2b661e1e16972f',1,'qsortdbg.cpp']]]
+  ['scmpfrmstrendtostrstrt_0',['scmpfrmstrendtostrstrt',['../cmprators_8cpp.html#ab8ded2672d4f8a2b69ed9a8130f887de',1,'scmpfrmstrendtostrstrt(const void *s1ptr, const void *s2ptr):&#160;cmprators.cpp'],['../cmprators_8h.html#a2fc0470003b15936b64a9addb5abce61',1,'scmpfrmstrendtostrstrt(const void *s1, const void *s2):&#160;cmprators.cpp']]],
+  ['sqsort_1',['sqsort',['../sqsort_8cpp.html#a4a2cde91c741f42159a28e77bc8483e6',1,'sqsort(void *arr, size_t arrsize, size_t elemsize, int(*cmp)(const void *, const void *)):&#160;sqsort.cpp'],['../sqsort_8h.html#a4a2cde91c741f42159a28e77bc8483e6',1,'sqsort(void *arr, size_t arrsize, size_t elemsize, int(*cmp)(const void *, const void *)):&#160;sqsort.cpp']]],
+  ['sqsort_2ecpp_2',['sqsort.cpp',['../sqsort_8cpp.html',1,'']]],
+  ['sqsort_2eh_3',['sqsort.h',['../sqsort_8h.html',1,'']]],
+  ['str_4',['str',['../structstring.html#ab5585188dc3bad40861d2fdbc908493b',1,'string']]],
+  ['strcmpfrmstrstrttostrend_5',['strcmpfrmstrstrttostrend',['../cmprators_8cpp.html#a7d7b7a62c525ec02ecc32a4a9c3e6d7f',1,'strcmpfrmstrstrttostrend(const void *s1ptr, const void *s2ptr):&#160;cmprators.cpp'],['../cmprators_8h.html#a5f7a6fdd9e77006284ff237ce3faeb03',1,'strcmpfrmstrstrttostrend(const void *s1, const void *s2):&#160;cmprators.cpp']]],
+  ['strfuncs_2ecpp_6',['strfuncs.cpp',['../strfuncs_8cpp.html',1,'']]],
+  ['strfuncs_2eh_7',['strfuncs.h',['../strfuncs_8h.html',1,'']]],
+  ['string_8',['string',['../structstring.html',1,'']]],
+  ['structs_2eh_9',['structs.h',['../structs_8h.html',1,'']]],
+  ['swap_10',['swap',['../qsort_8cpp.html#a6f9a2119c1365a53189749d13b4bd13d',1,'swap(void *e1ptr, void *e2ptr, size_t size):&#160;qsort.cpp'],['../sqsort_8cpp.html#a81d69681a1e98d2f873c9cbea31170d6',1,'swap(void *elm1ptr, void *elm2ptr, size_t size):&#160;sqsort.cpp']]],
+  ['sz_11',['sz',['../structfiledata.html#a7aa9690298dcfab00aeea9c49be4ed3d',1,'filedata']]]
 ];

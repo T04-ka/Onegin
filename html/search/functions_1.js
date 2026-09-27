@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['main_0',['main',['../main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;main.cpp'],['../qsortdbg_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;qsortdbg.cpp'],['../sqsortdbg_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;sqsortdbg.cpp']]]
+  ['filedatastrdestr_0',['filedatastrdestr',['../strfuncs_8cpp.html#a50f97d18338026edab02802a9e518cbb',1,'filedatastrdestr(struct filedata *fldt):&#160;strfuncs.cpp'],['../strfuncs_8h.html#a50f97d18338026edab02802a9e518cbb',1,'filedatastrdestr(struct filedata *fldt):&#160;strfuncs.cpp']]]
 ];

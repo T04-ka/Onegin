@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['prsdbffr_0',['prsdbffr',['../structfiledata.html#a36a16dae4082a729428b5cd2f9e75fee',1,'filedata']]]
+  ['len_0',['len',['../structstring.html#aa6bcf0353fd5cf2f374a9b1dd0e4a73a',1,'string']]]
 ];

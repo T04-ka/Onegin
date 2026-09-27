@@ -23,7 +23,7 @@ int chrncnt(char* line, char smpl, size_t size);
 ///
 /// @param flnm Path to the fil
 ///
-/// @return Size of the file in bytes
+/// @return Size of the file in bytes on succes, -1 on failure.
 ///
 //-------------------------------------------------------------------------------------
 long long rdflsz(FILE* fl);
@@ -46,6 +46,7 @@ void prsdata(struct filedata* fldt);
 /// Frees the memory allocated for the file data structure and its data.
 ///
 /// @param fldt Pointer to the file data structure.
+///
 //-------------------------------------------------------------------------------------
 void filedatastrdestr(struct filedata* fldt);
 
@@ -59,6 +60,7 @@ void filedatastrdestr(struct filedata* fldt);
 /// @param ionm Pointer to the io_data structure to store the parsed names.
 ///
 /// @return 0 on success, non-zero on failure.
+///
 //-------------------------------------------------------------------------------------
 int ioflnmsprs(int argc, char** argv, struct io_data* ionm);
 

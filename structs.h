@@ -4,12 +4,14 @@
 #include <stdio.h>
 
 
+//-------------------------------------------------------------------------------------
 struct string {
     const char* str;
     size_t len;
 };
 
 
+//-------------------------------------------------------------------------------------
 struct filedata {
     FILE* fl;
     size_t sz;
@@ -18,9 +20,12 @@ struct filedata {
     string *prsdbffr;
 };
 
+
+//-------------------------------------------------------------------------------------
 struct io_data {
     const char* inp;
     const char* out;
 };
+
 
 #endif

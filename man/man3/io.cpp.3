@@ -1,0 +1,114 @@
+.TH "io.cpp" 3 "Onegin" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+io.cpp
+.SH SYNOPSIS
+.br
+.PP
+\fR#include 'io\&.h'\fP
+.br
+\fR#include 'strfuncs\&.h'\fP
+.br
+\fR#include <cstddef>\fP
+.br
+\fR#include <cstdio>\fP
+.br
+\fR#include <assert\&.h>\fP
+.br
+
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBFLDT_\fP   fldt \->"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBopnfls\fP (FILE **inp, FILE **out, struct \fBio_data\fP \fBio_data\fP)"
+.br
+.ti -1c
+.RI "int \fBclsfls\fP (FILE *inp, FILE *out)"
+.br
+.ti -1c
+.RI "void \fBprintArr\fP (\fBstring\fP arr[], int nlines, FILE *fl)"
+.br
+.ti -1c
+.RI "int \fBrdfrmfl\fP (struct \fBfiledata\fP *fldt)"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define FLDT_   fldt \->"
+
+.SH "Function Documentation"
+.PP 
+.SS "int clsfls (FILE * inp, FILE * out)"
+Closes the input and output files\&.
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIinp\fP The input file to close\&. 
+.br
+\fIout\fP The output file to close\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+0 on success, non-zero on failure\&. 
+.RE
+.PP
+
+.SS "int opnfls (FILE ** inp, FILE ** out, struct \fBio_data\fP io_data)"
+Opens the input and output files for reading and writing, respectively\&.
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIinp\fP The input file to open\&. 
+.br
+\fIout\fP The output file to open\&. 
+.br
+\fI\fBio_data\fP\fP The \fBio_data\fP struct containing the file names\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+0 on success, non-zero on failure\&. 
+.RE
+.PP
+
+.SS "void printArr (\fBstring\fP arr[], int nlines, FILE * out)"
+Prints the contents of an array of strings to the console\&.
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIarr\fP The array of strings to print\&. 
+.br
+\fInlines\fP The number of lines in the array\&. 
+.RE
+.PP
+
+.SS "int rdfrmfl (struct \fBfiledata\fP * filedata)"
+Reads the contents of a file into a filedata struct\&.
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIfldt\fP The filedata struct to read into\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+0 on success, non-zero on failure\&. 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Onegin from the source code\&.

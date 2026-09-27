@@ -1,7 +1,5 @@
 <map id="sqsort.h" name="sqsort.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="64,5,137,33"/>
-<area shape="rect" id="Node000002" href="$main_8cpp.html" title=" " alt="" coords="5,81,87,109"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,45,58,82,54,79,79,47"/>
-<area shape="rect" id="Node000003" href="$sqsort_8cpp.html" title=" " alt="" coords="111,81,200,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="121,43,148,81,143,80,118,48"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="13,5,86,33"/>
+<area shape="rect" id="Node000002" href="$sqsort_8cpp.html" title=" " alt="" coords="5,81,94,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="51,47,52,81,47,80,48,51"/>
 </map>

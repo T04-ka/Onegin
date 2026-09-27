@@ -64,25 +64,25 @@ void printArr(string arr[], int nlines, FILE* fl){
 
 //TODO: сделть if (файл непрочитан) error
 //-------------------------------------------------------------------------------------
-#define fldt_ fldt ->
+#define FLDT_ fldt ->
 
 int rdfrmfl(struct filedata* fldt){
 
-    long long sz = rdflsz(fldt_ fl);
+    long long sz = rdflsz(FLDT_ fl);
 
     if (sz == -1){
 
         return 1;
     }
 
-    fldt_ sz = (size_t) sz;
-    fldt_ rdbffr = (char*) calloc(fldt_ sz + 1, 1);
+    FLDT_ sz = (size_t) sz;
+    FLDT_ rdbffr = (char*) calloc(FLDT_ sz + 1, 1);
 
-    fread(fldt_ rdbffr, sizeof(char), fldt_ sz, fldt_ fl);
+    fread(FLDT_ rdbffr, sizeof(char), FLDT_ sz, FLDT_ fl);
 
     /*
-    int fldiscr = open(fldt_ flnm, 1, "r");
-    read(fldt_ rdbffr, sizeof(char), fldt_ sz, fldiscr);
+    int fldiscr = open(FLDT_ flnm, 1, "r");
+    read(FLDT_ rdbffr, sizeof(char), FLDT_ sz, fldiscr);
     fclose(file);
     */
 
@@ -91,5 +91,5 @@ int rdfrmfl(struct filedata* fldt){
     return 0;
 }
 
-#undef fldt_
+#undef FLDT_
 //-------------------------------------------------------------------------------------

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: filedata Struct Reference</title>
+<title>Onegin: filedata Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">Onegin
    </div>
+   <div id="projectbrief">Sorting textfiles in direct and reverse order</div>
   </td>
  </tr>
  </tbody>
@@ -91,6 +92,8 @@ $(function(){initNavTree('structfiledata.html','','structfiledata-members'); });
   <div class="headertitle"><div class="title">filedata Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="structs_8h_source.html">structs.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for filedata:</div>
 <div class="dyncontent">
@@ -104,17 +107,83 @@ Collaboration diagram for filedata:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aaadf265ae84727f154e279eff760ea1d" id="r_aaadf265ae84727f154e279eff760ea1d"><td class="memItemLeft" align="right" valign="top"><a id="aaadf265ae84727f154e279eff760ea1d" name="aaadf265ae84727f154e279eff760ea1d"></a>
-const char *&#160;</td><td class="memItemRight" valign="bottom"><b>flnm</b></td></tr>
-<tr class="memitem:a7aa9690298dcfab00aeea9c49be4ed3d" id="r_a7aa9690298dcfab00aeea9c49be4ed3d"><td class="memItemLeft" align="right" valign="top"><a id="a7aa9690298dcfab00aeea9c49be4ed3d" name="a7aa9690298dcfab00aeea9c49be4ed3d"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><b>sz</b></td></tr>
-<tr class="memitem:a56c13963d857804e25ad3782b74ab5da" id="r_a56c13963d857804e25ad3782b74ab5da"><td class="memItemLeft" align="right" valign="top"><a id="a56c13963d857804e25ad3782b74ab5da" name="a56c13963d857804e25ad3782b74ab5da"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>nlns</b></td></tr>
-<tr class="memitem:a25b8ddcaee5b05d8f783c23f2ba04e7a" id="r_a25b8ddcaee5b05d8f783c23f2ba04e7a"><td class="memItemLeft" align="right" valign="top"><a id="a25b8ddcaee5b05d8f783c23f2ba04e7a" name="a25b8ddcaee5b05d8f783c23f2ba04e7a"></a>
-char *&#160;</td><td class="memItemRight" valign="bottom"><b>rdbffr</b></td></tr>
-<tr class="memitem:a29282a0fc422490030d1116aa944722d" id="r_a29282a0fc422490030d1116aa944722d"><td class="memItemLeft" align="right" valign="top"><a id="a29282a0fc422490030d1116aa944722d" name="a29282a0fc422490030d1116aa944722d"></a>
-<a class="el" href="structstring.html">string</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>prsdbffr</b></td></tr>
+<tr class="memitem:a7eaec86f9ec5d6ccb3aa35fd11fa7cc2" id="r_a7eaec86f9ec5d6ccb3aa35fd11fa7cc2"><td class="memItemLeft" align="right" valign="top">FILE *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7eaec86f9ec5d6ccb3aa35fd11fa7cc2">fl</a></td></tr>
+<tr class="memitem:a7aa9690298dcfab00aeea9c49be4ed3d" id="r_a7aa9690298dcfab00aeea9c49be4ed3d"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7aa9690298dcfab00aeea9c49be4ed3d">sz</a></td></tr>
+<tr class="memitem:a56c13963d857804e25ad3782b74ab5da" id="r_a56c13963d857804e25ad3782b74ab5da"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56c13963d857804e25ad3782b74ab5da">nlns</a></td></tr>
+<tr class="memitem:a25b8ddcaee5b05d8f783c23f2ba04e7a" id="r_a25b8ddcaee5b05d8f783c23f2ba04e7a"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25b8ddcaee5b05d8f783c23f2ba04e7a">rdbffr</a></td></tr>
+<tr class="memitem:a29282a0fc422490030d1116aa944722d" id="r_a29282a0fc422490030d1116aa944722d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structstring.html">string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29282a0fc422490030d1116aa944722d">prsdbffr</a></td></tr>
 </table>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a7eaec86f9ec5d6ccb3aa35fd11fa7cc2" name="a7eaec86f9ec5d6ccb3aa35fd11fa7cc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7eaec86f9ec5d6ccb3aa35fd11fa7cc2">&#9670;&#160;</a></span>fl</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FILE* filedata::fl</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a56c13963d857804e25ad3782b74ab5da" name="a56c13963d857804e25ad3782b74ab5da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56c13963d857804e25ad3782b74ab5da">&#9670;&#160;</a></span>nlns</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int filedata::nlns</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a29282a0fc422490030d1116aa944722d" name="a29282a0fc422490030d1116aa944722d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29282a0fc422490030d1116aa944722d">&#9670;&#160;</a></span>prsdbffr</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structstring.html">string</a>* filedata::prsdbffr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a25b8ddcaee5b05d8f783c23f2ba04e7a" name="a25b8ddcaee5b05d8f783c23f2ba04e7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25b8ddcaee5b05d8f783c23f2ba04e7a">&#9670;&#160;</a></span>rdbffr</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* filedata::rdbffr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7aa9690298dcfab00aeea9c49be4ed3d" name="a7aa9690298dcfab00aeea9c49be4ed3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aa9690298dcfab00aeea9c49be4ed3d">&#9670;&#160;</a></span>sz</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t filedata::sz</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="structs_8h_source.html">structs.h</a></li>
 </ul>

@@ -1,0 +1,60 @@
+.TH "main.cpp" 3 "Onegin" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+main.cpp
+.SH SYNOPSIS
+.br
+.PP
+\fR#include 'io\&.h'\fP
+.br
+\fR#include 'strfuncs\&.h'\fP
+.br
+\fR#include 'qsort\&.h'\fP
+.br
+\fR#include 'cmprators\&.h'\fP
+.br
+\fR#include <cstdlib>\fP
+.br
+\fR#include <assert\&.h>\fP
+.br
+
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBCHCKERR\fP(ERR)"
+.br
+.ti -1c
+.RI "#define \fBPRINTARR\fP   \fBprintArr\fP(fldt\&.prsdbffr, fldt\&.nlns, outfl)"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBmain\fP (int argc, char **argv)"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define CHCKERR( ERR)"
+\fBValue:\fP
+.nf
+                                                                    if (err) {                                    \\
+                                                                    \\
+                        fprintf(outfl, ERR);                        \\
+                        return 1;                                   \\
+                    }
+.PP
+.fi
+
+.SS "#define PRINTARR   \fBprintArr\fP(fldt\&.prsdbffr, fldt\&.nlns, outfl)"
+
+.SH "Function Documentation"
+.PP 
+.SS "int main (int argc, char ** argv)"
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Onegin from the source code\&.

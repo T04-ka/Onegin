@@ -1,5 +1,8 @@
 <map id="strfuncs.h" name="strfuncs.h">
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,5,91,33"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="15,81,81,109"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="50,31,51,66,45,65,46,36"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="15,157,81,184"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="45,31,39,81,39,108,44,141,39,141,33,109,33,81,44,36"/>
+<area shape="rect" id="Node000003" href="$structs_8h.html" title=" " alt="" coords="48,81,125,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="55,31,75,67,70,68,55,36"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="82,108,64,144,60,141,78,111"/>
 </map>

@@ -1,0 +1,87 @@
+.TH "cmprators.h" 3 "Onegin" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+cmprators.h
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBstrcmpfrmstrstrttostrend\fP (const void *s1, const void *s2)"
+.br
+.ti -1c
+.RI "int \fBscmpfrmstrendtostrstrt\fP (const void *s1, const void *s2)"
+.br
+.ti -1c
+.RI "int \fBptrcmp\fP (const void *n1, const void *n2)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "int ptrcmp (const void * n1, const void * n2)"
+Compares two pointers by their address\&.
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIn1\fP First pointer, cast to the type void*\&. 
+.br
+\fIn2\fP Second pointer, cast to the type void*\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+An integer less than, equal to, or greater than zero if the first pointer is found, respectively, to be less than, to match, or be greater than the second pointer\&. 
+.RE
+.PP
+
+.SS "int scmpfrmstrendtostrstrt (const void * s1, const void * s2)"
+Compares two strings lexicographically from end to start\&.
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIs1\fP Pointer to the first string\&. 
+.br
+\fIs2\fP Pointer to the second string\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+An integer less than, equal to, or greater than zero if the first string is found, respectively, to be less than, to match, or be greater than the second string\&.
+.RE
+.PP
+\fBNote\fP
+.RS 4
+Skipes non-alphanumeric characters\&. 
+.RE
+.PP
+
+.SS "int strcmpfrmstrstrttostrend (const void * s1, const void * s2)"
+Compares two strings lexicographically from start to end\&.
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIs1\fP Pointer to the first string\&. 
+.br
+\fIs2\fP Pointer to the second string\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+An integer less than, equal to, or greater than zero if the first string is found, respectively, to be less than, to match, or be greater than the second string\&.
+.RE
+.PP
+\fBNote\fP
+.RS 4
+Skipes non-alphanumeric characters\&.
+.RE
+.PP
+P\&.S\&. Fuck the programmer duu to his naming conventions\&. Please do NOT use such naming later\&. I was really SCREWED UP and FUCKED UP during the recognition\&. Thank you in advance\&. Yours truly, AI\&. 
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Onegin from the source code\&.

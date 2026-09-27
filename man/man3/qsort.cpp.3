@@ -1,0 +1,61 @@
+.TH "qsort.cpp" 3 "Onegin" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+qsort.cpp
+.SH SYNOPSIS
+.br
+.PP
+\fR#include 'qsort\&.h'\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBswap\fP (void *e1ptr, void *e2ptr, size_t size)"
+.br
+.ti -1c
+.RI "void \fBmyqsort\fP (void *arr, size_t elemsize, size_t arrsize, int(*cmp)(const void *e1ptr, const void *e2ptr))"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "void myqsort (void * arr, size_t elemsize, size_t arrsize, int(* cmp )(const void *a, const void *b))"
+Sorting the void* array using quicksort algorithm
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIarr[]\fP Array with data 
+.br
+\fIelemsize\fP Size of one array element in bytes 
+.br
+\fIarrsize\fP Size of array in bytes 
+.br
+\fIcmp\fP Personal comparator
+.RE
+.PP
+\fBNote\fP
+.RS 4
+Comparator must return 0 if elements are equal, positive int if first elem > second elem, negative int if first elem < second elem\&. 
+.RE
+.PP
+
+.SS "void swap (void * e1ptr, void * e2ptr, size_t size)"
+Swaps 2 elements pointed by void*
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIi\fP Pointer to first element 
+.br
+\fIj\fP Pointer to second element 
+.br
+\fIsize\fP Size of elements to swap 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Onegin from the source code\&.

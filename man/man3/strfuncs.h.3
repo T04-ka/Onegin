@@ -1,0 +1,115 @@
+.TH "strfuncs.h" 3 "Onegin" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+strfuncs.h
+.SH SYNOPSIS
+.br
+.PP
+\fR#include <stdio\&.h>\fP
+.br
+\fR#include 'structs\&.h'\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBchrncnt\fP (char *line, char smpl, size_t size)"
+.br
+.ti -1c
+.RI "long long \fBrdflsz\fP (FILE *fl)"
+.br
+.ti -1c
+.RI "void \fBprsdata\fP (struct \fBfiledata\fP *fldt)"
+.br
+.ti -1c
+.RI "void \fBfiledatastrdestr\fP (struct \fBfiledata\fP *fldt)"
+.br
+.ti -1c
+.RI "int \fBioflnmsprs\fP (int argc, char **argv, struct \fBio_data\fP *ionm)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "int chrncnt (char * line, char smpl, size_t size)"
+Counts the number of occurrences of a character in a buffer\&.
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIbuf\fP The buffer to search\&. 
+.br
+\fIsize\fP The size of the buffer\&. 
+.br
+\fIsmlp\fP The character to search for\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The number of occurrences of the character\&. 
+.RE
+.PP
+
+.SS "void filedatastrdestr (struct \fBfiledata\fP * fldt)"
+Frees the memory allocated for the file data structure and its data\&.
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIfldt\fP Pointer to the file data structure\&. 
+.RE
+.PP
+
+.SS "int ioflnmsprs (int argc, char ** argv, struct \fBio_data\fP * ionm)"
+Parses the input and output file names from the command line arguments\&.
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIargc\fP Number of command line arguments\&. 
+.br
+\fIargv\fP Array of command line arguments\&. 
+.br
+\fIionm\fP Pointer to the \fBio_data\fP structure to store the parsed names\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+0 on success, non-zero on failure\&. 
+.RE
+.PP
+
+.SS "void prsdata (struct \fBfiledata\fP * fldt)"
+Parses the data in the buffer into a buffer of pointers to lines\&.
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIfldt\fP The file data structure\&.
+.RE
+.PP
+\fBNote\fP
+.RS 4
+The previous data of the buffer to parse will be removed\&. 
+.RE
+.PP
+
+.SS "long long rdflsz (FILE * fl)"
+Returns the size of the file in bytes
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIflnm\fP Path to the fil
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Size of the file in bytes on succes, -1 on failure\&. 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Onegin from the source code\&.
